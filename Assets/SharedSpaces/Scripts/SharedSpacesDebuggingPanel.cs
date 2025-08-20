@@ -14,7 +14,7 @@ public class SharedSpacesDebuggingPanel : MonoBehaviour
 
     private void Awake()
     {
-        log = FindObjectOfType<SharedSpacesLog>();
+        log = FindFirstObjectByType<SharedSpacesLog>();
         if (log)
         {
             log.SetDebuggingPanel(this);

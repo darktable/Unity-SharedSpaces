@@ -19,7 +19,7 @@ public class SharedSpacesInvitePanel : MonoBehaviour
     private void OnEnable()
     {
 #if UNITY_EDITOR || UNITY_STANDALONE_WIN
-        joinRoomCanvas = FindObjectOfType<Temp>(true)?.GetComponent<Canvas>();
+        joinRoomCanvas = FindFirstObjectByType<Temp>(FindObjectsInactive.Include)?.GetComponent<Canvas>();
         inputField = joinRoomCanvas?.GetComponentInChildren<InputField>();
 #endif
     }

@@ -20,7 +20,7 @@ public class SharedSpacesSession : NetworkBehaviour
     private void Awake()
     {
         fallbackHostId = ulong.MaxValue;
-        spawner = FindObjectOfType<SharedSpacesSpawner>();
+        spawner = FindFirstObjectByType<SharedSpacesSpawner>();
         StartCoroutine(InitPhotonRoomName());
     }
 

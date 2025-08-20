@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.48, g: 0.48, b: 0.48, a: 1}
   m_FogMode: 3
@@ -42,8 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -66,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -96,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 6554ae81edf8f5b40a431a7507b86ab2, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: bde798ade3afd2341a03796824a10b22, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 527235597aaf9864198c05664623a1e6, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -135,7 +132,7 @@ PrefabInstance:
       value: PortalBlueRoom
       objectReference: {fileID: 0}
     - target: {fileID: 1769282058048895114, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 3cc390698724f5c4288632b3310e6ed3, type: 2}
     - target: {fileID: 2656426360946620776, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
@@ -187,7 +184,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6191733781068689189, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6295e2de329768c47bd4dbe1113e362e, type: 2}
     - target: {fileID: 6996851970234084557, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
@@ -278,7 +275,7 @@ PrefabInstance:
       value: PortalRedRoom
       objectReference: {fileID: 0}
     - target: {fileID: 1769282058048895114, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 98665de40f5aeed4aa2898b85d3f9c9a, type: 2}
     - target: {fileID: 2656426360946620776, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
@@ -330,7 +327,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6191733781068689189, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6076abe937e1f274a9df1a569ca6f24a, type: 2}
     - target: {fileID: 6996851970234084557, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
@@ -444,7 +441,7 @@ PrefabInstance:
       value: PortalPublicPurpleRoom
       objectReference: {fileID: 0}
     - target: {fileID: 1769282058048895114, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 88e0b78c6f2474c4f86200a44fed9f8d, type: 2}
     - target: {fileID: 2656426360946620776, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
@@ -496,7 +493,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6191733781068689189, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 983b7329405749343b89b6305bc9cd3b, type: 2}
     - target: {fileID: 6996851970234084557, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
@@ -638,7 +635,7 @@ PrefabInstance:
       value: PortalGreenRoom
       objectReference: {fileID: 0}
     - target: {fileID: 1769282058048895114, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 65433ea906607464689e1bddd4d85596, type: 2}
     - target: {fileID: 2656426360946620776, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
@@ -690,7 +687,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6191733781068689189, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: d034924fca9aa3448bbf2efed33df01a, type: 2}
     - target: {fileID: 6996851970234084557, guid: fa8d7be51a0048c4c828f34ed9e0e61c, type: 3}
@@ -842,12 +839,8 @@ PrefabInstance:
       value: 31.34
       objectReference: {fileID: 0}
     - target: {fileID: 69312451636497935, guid: 652fd9f00e31178448da24005f80b881, type: 3}
-      propertyPath: m_ShadowAngle
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 69312451636497935, guid: 652fd9f00e31178448da24005f80b881, type: 3}
-      propertyPath: m_Shadows.m_Type
-      value: 0
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1188,10 +1181,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 378191049, guid: e78eb3177fba1d04bba1dd0d06ecdf98, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e78eb3177fba1d04bba1dd0d06ecdf98, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

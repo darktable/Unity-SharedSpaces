@@ -41,7 +41,7 @@ public class SharedSpacesVoip : MonoBehaviour
         sharedSpacesRecorder = Instantiate(sharedSpacesRecorderPrefab, parent);
 
         VoiceConnection voiceConnection = sharedSpacesRecorder.GetComponent<VoiceConnection>();
-        SharedSpacesPlayerState playerState = FindObjectsOfType<SharedSpacesPlayerState>().First(p => p.IsLocalPlayer);
+        SharedSpacesPlayerState playerState = FindObjectsByType<SharedSpacesPlayerState>(FindObjectsSortMode.None).First(p => p.IsLocalPlayer);
         voiceConnection.Client.LocalPlayer.SetCustomProperties(new ExitGames.Client.Photon.Hashtable
         {
             [nameof(NetworkObject.NetworkObjectId)] = (int)playerState.NetworkObjectId,

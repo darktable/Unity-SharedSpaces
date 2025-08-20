@@ -68,7 +68,7 @@ public class SharedSpacesApplication : MonoBehaviour
         }
         else if (NetworkManager.Singleton.IsClient && clientId == NetworkManager.Singleton.LocalClientId)
         {
-            session = FindObjectOfType<SharedSpacesSession>();
+            session = FindFirstObjectByType<SharedSpacesSession>();
 
             if (networkLayer.clientState == SharedSpacesNetworkLayer.ClientState.RestoringClient)
             {

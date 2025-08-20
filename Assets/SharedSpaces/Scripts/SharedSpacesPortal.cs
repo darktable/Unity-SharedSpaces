@@ -16,7 +16,7 @@ public class SharedSpacesPortal : MonoBehaviour
 
     private void Start()
     {
-        application = FindObjectOfType<SharedSpacesApplication>();
+        application = FindFirstObjectByType<SharedSpacesApplication>();
     }
 
     private void OnTriggerEnter(Collider other)

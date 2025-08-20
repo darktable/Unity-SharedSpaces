@@ -73,6 +73,6 @@ public class SharedSpacesSceneLoader : MonoBehaviour
         if (scene == currentScene) return;
 
         sceneLoaded = false;
-        SceneManager.LoadSceneAsync((int)scene);
+        SceneManager.LoadSceneAsync((int)scene, LoadSceneMode.Single);
     }
 }

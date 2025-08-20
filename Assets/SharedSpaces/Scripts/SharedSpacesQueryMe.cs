@@ -13,7 +13,7 @@ public class SharedSpacesQueryMe : MonoBehaviour
 
     private void OnEnable()
     {
-        application = FindObjectOfType<SharedSpacesApplication>();
+        application = FindFirstObjectByType<SharedSpacesApplication>();
     }
 
     private void OnTriggerEnter(Collider other)
