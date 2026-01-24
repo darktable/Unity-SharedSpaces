@@ -14,21 +14,21 @@
       "hash": "3dd9868902b0da1cd7700c9da725aa9fb1ea5da5"
     },
     "com.meta.xr.sdk.audio": {
-      "version": "77.0.0",
+      "version": "81.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.meta.xr.sdk.core": {
-      "version": "77.0.0",
+      "version": "81.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.meta.xr.sdk.platform": {
-      "version": "77.0.0",
+      "version": "81.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -37,7 +37,7 @@
       "url": "https://packages.unity.com"
     },
     "com.meta.xr.simulator": {
-      "version": "77.0.0",
+      "version": "81.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
