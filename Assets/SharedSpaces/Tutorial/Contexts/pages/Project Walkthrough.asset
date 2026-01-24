@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645f4231a451006409b7afbabdd9f82d, type: 3}
+  m_Name: Project Walkthrough
+  m_EditorClassIdentifier: 
+  m_displayName: Project Walkthrough
+  m_hierarchyName: 
+  m_context: {fileID: 11400000, guid: f44a011beaf03f54f96db11894def83d, type: 2}
+  m_markdownFile: {fileID: 0}
+  m_priority: 0
+  <References>k__BackingField:
+  - Header: SharedSpaces
+    Description: This is where all the project specific code and assets are located.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: f135cacb5942f1f4b95fe546b097d50c, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: Prefabs
+    Description: Prefabs used in Shared Spaces can be found here.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: 52dff75effc472844bc83fc64b1c4141, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: Scenes
+    Description: You will find all the scenes under this folder.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: 8ccddc84694839f40969dd120bbdc1f0, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0

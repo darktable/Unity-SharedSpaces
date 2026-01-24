@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.meta.tutorial.framework": "https://github.com/meta-quest/Unity-UtilityPackages.git?path=com.meta.tutorial.framework#com.meta.tutorial.framework-1.0.2",
     "com.meta.xr.sdk.audio": "77.0.0",
     "com.meta.xr.sdk.core": "77.0.0",
     "com.meta.xr.sdk.platform": "77.0.0",

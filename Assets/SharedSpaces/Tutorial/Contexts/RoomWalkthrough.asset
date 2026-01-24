@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee262462c8042e840a3146c602914c9a, type: 3}
+  m_Name: RoomWalkthrough
+  m_EditorClassIdentifier: 
+  m_title: Room Walkthrough
+  m_priority: 1013
+  m_tutorialConfig: {fileID: 11400000, guid: 28f50d41fa029e74daf9905a93253032, type: 2}
+  m_showBanner: 0
+  m_references:
+  - Header: BlueRoom Scene
+    Description: This room, like the Green and Red Room, is a private room that requires
+      an invite for other users to join.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: 995d64644d29e894fb88bb5a59e89cbc, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: LaunchTriggers
+    Description: This is where all the triggers can be found.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 995d64644d29e894fb88bb5a59e89cbc, type: 3}
+      m_name: LaunchTriggers
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: InvitePanelLaunchTrigger
+    Description: Standing on this trigger will open up an invite panel to allow other
+      users to join the current lobby.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 995d64644d29e894fb88bb5a59e89cbc, type: 3}
+      m_name: LaunchTriggers/InvitePanelLaunchTrigger
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: RosterPanelLaunchTrigger
+    Description: Standing on this trigger will open up the roster panel. Only the
+      host of the lobby could use this panel.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 995d64644d29e894fb88bb5a59e89cbc, type: 3}
+      m_name: LaunchTriggers/RosterPanelLaunchTrigger
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: QueryFriends
+    Description: Standing on this trigger will query the users in the lobby, it will
+      show on the log panel. Only the host of the lobby could use this panel.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 995d64644d29e894fb88bb5a59e89cbc, type: 3}
+      m_name: LaunchTriggers/QueryFriends
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: QueryMe
+    Description: Standing on this trigger will query the host of the lobby. Only
+      the host of the lobby could use this panel.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 995d64644d29e894fb88bb5a59e89cbc, type: 3}
+      m_name: LaunchTriggers/QueryMe
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: Portal
+    Description: Going through this portal will get the user to the Lobby scene.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 995d64644d29e894fb88bb5a59e89cbc, type: 3}
+      m_name: Portal
+      m_path: 
+      m_guid: 
+      m_instanceID: 0

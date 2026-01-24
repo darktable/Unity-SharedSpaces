@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645f4231a451006409b7afbabdd9f82d, type: 3}
+  m_Name: Lobby Walkthrough
+  m_EditorClassIdentifier: 
+  m_displayName: Lobby Walkthrough
+  m_hierarchyName: 
+  m_context: {fileID: 11400000, guid: 3cfdfdc607f5862458c4605dba42cc7d, type: 2}
+  m_markdownFile: {fileID: 0}
+  m_priority: 0
+  <References>k__BackingField:
+  - Header: Lobby Scene
+    Description: This scene loads after Startup. Here, you can join the different
+      rooms, invite users, and more.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: PaintShop
+    Description: When standing on the platform, the user will change color.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+      m_name: PaintShop
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: PortalBlueRoom
+    Description: Walking into PortalBlueRoom, PortalGreenRoom, PortalRedRoom will
+      allow you to host your own private room that users can join through invites.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+      m_name: PortalBlueRoom
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: PortalPublicPurpleRoom
+    Description: Walking into PortalPublicPurpleRoom will have you join an existing
+      Purple Room or host one if none are available. These rooms are public so it
+      does not require an invite to join.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+      m_name: PortalPublicPurpleRoom
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: ExternalPortalUltimateGloveBall
+    Description: Walking into this portal will launch the Ultimate Glove Ball application.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+      m_name: ExternalPortalUltimateGloveBall
+      m_path: 
+      m_guid: 
+      m_instanceID: 0

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4510294d23d964fe59443526f1ca7c4b, type: 3}
+  m_Name: Welcome
+  m_EditorClassIdentifier: 
+  m_displayName: Welcome
+  m_hierarchyName: Welcome
+  m_context: {fileID: 11400000, guid: 91f7cc462d29d144db5915bda036a8f6, type: 2}
+  m_markdownFile: {fileID: 0}
+  m_priority: 1001
+  m_overrideMarkdownText: '# SharedSpaces
+
+
+    SharedSpaces, developed by the VR
+    Developer Tools team, showcases how to quickly gather people in VR using Oculus
+    Social Platform APIs. This version is built for the Unity engine, utilizing <a
+    href="https://github.com/Unity-Technologies/multiplayer-community-contributions/tree/main/Transports/com.community.netcode.transport.photon-realtime">Photon
+    Realtime</a> as the transport layer and <a href="https://github.com/Unity-Technologies/com.unity.netcode.gameobjects">Unity
+    Netcode for GameObjects</a>. There is also a version for the <a href="https://github.com/oculus-samples/Unreal-SharedSpaces">Unreal
+    Engine</a>.
+
+
+    This codebase serves as both a reference and a template for
+    multiplayer VR games.
+
+
+
+    ## Project Description
+
+
+    SharedSpaces networking
+    consists of three layers. The Oculus layer provides presence information to find
+    and connect with friends. The Photon layer handles message transport between
+    players. The Netcode for GameObjects layer manages game object replication.
+
+
+    This
+    overview explores each layer and demonstrates how they integrate to create a
+    simple multiplayer application, allowing people to connect and play without a
+    dedicated server.
+
+
+
+    ## Dependencies
+
+
+
+    ### Where are the Meta and Photon
+    packages?
+
+
+    The Meta packages are referenced in the <a href="./Packages/manifest.json">Packages/manifest.json</a>
+    file; update them using the Package Manager within the Unity Editor.
+
+
+    To
+    keep the project organized, the <a href="https://assetstore.unity.com/packages/tools/audio/photon-voice-2-130518">Photon
+    Voice 2</a> package is stored in the <a href="./Packages">Packages</a> folder.
+    To update, import their updated Asset Store packages, then copy them into their
+    respective `Packages` folders.
+
+
+    The *Photon Voice 2* package is released
+    under the *<a href="./Packages/Photon/Photon/license.txt">License Agreement for
+    Exit Games Photon</a>*.
+
+
+    The Photon Realtime package is referenced in <a
+    href="./Packages/manifest.json">Packages/manifest.json</a> as `com.mlapi.contrib.transport.photon-realtime`.
+
+
+'
+  m_overrideMarkdownRoot: ./
